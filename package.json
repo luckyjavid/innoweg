@@ -1,11 +1,27 @@
 {
   "name": "innoweg",
   "version": "1.0.0",
-  "description": "innoweg website",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Javid Hussain Fazaeli",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyjavid/innoweg.git"
+  },
+  "author": "Javid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyjavid/innoweg/issues"
+  },
+  "homepage": "https://github.com/luckyjavid/innoweg#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.13",
+    "loadash": "^1.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.6"
+  }
 }
