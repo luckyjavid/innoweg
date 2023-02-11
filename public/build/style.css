@@ -89,6 +89,7 @@ body {
 /* Header and footer */
 /* ---------------------------------------- */
 #header {
+  flex: 1; 
   position: fixed;
   height: 10vh;
   width: 100%;
@@ -102,18 +103,20 @@ body {
   border-bottom-width: thin;
   border-bottom-color: snow;
 }
+
 footer {
+  
   background-color: #102b46;
-  /* background-color: #aa3333; */
-  height: 30vh !important;
+  position: fixed;
+  height: 10vh !important;
   width: 100%;
   color: white;
   font-size: 1em;
   text-align: center;
-  line-height: 12em;
   left: 0;
   bottom: 0;
 }
+
 
 
 /* left corner logo and text */
@@ -318,6 +321,7 @@ input{
   }
 
   .btn {
+    display:block;
     color: white;
     width: 22em;
     padding: 1em .75em;
